@@ -1,0 +1,110 @@
+/* import a font */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*,
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif; */
+  font-size: 20px;
+  line-height: 115%;
+  font-weight: 400;
+  color: #222;
+}
+
+body {
+  background: #fff;
+}
+
+main, footer {
+  max-width: 1280px;
+  margin:auto;
+}
+
+p a {
+  color: #000;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  text-decoration-style: solid;
+  text-decoration-color: black;
+}
+
+a:hover {
+  color: rgb(0, 123, 255);
+}
+
+.hero__overlay {
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  padding:1rem 2rem;
+  font-family:'Secular One', sans-serif;
+}
+
+.hero__overlay-content {
+  max-width: 540px;
+}
+
+.hero__overlay-content h2 {
+  color:#fff;
+  font-size: 6rem;
+  line-height: 100%;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 8rem;
+}
+
+.hero__overlay-content h3 {
+  margin-top:0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color:#fff;
+  text-align: left;
+}
+
+.hero__overlay-nav {
+  margin-top:4rem;
+}
+
+.hero__overlay-nav li {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 115%;
+  font-weight: 600;
+  text-align: right;
+}
+
+.hero__overlay-nav li a {
+  font-size: 2rem;
+  color:#fff;
+  font-family: 'Secular One', sans-serif;
+  border-bottom: #fff solid 2px;
+  padding-bottom:0.25rem;
+}
+
+.hero__overlay-nav li a:hover {
+  color:#ff8;
+}
+
+@media (orientation: portrait) {
+  *,
+  body {
+    font-size: 16px;
+  }
+
+  figcaption {
+    opacity: 1;
+  }
+
+  .hero__overlay {
+    padding: 1rem 2rem;
+  }
+}
+
+/* 
+(un)comment line below to show/hide outlines 
+to make layout-boxes visible.
+*/
+/* *,div, p { */
+  /* border:1px solid #f00; */
+/* } */
